@@ -43,17 +43,17 @@
                     <android.support.design.widget.TextInputEditText
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:hint="Телефон" android:inputType="phone"/>
+                            android:hint="Телефон" android:inputType="phone" android:id="@+id/teacherPhone"/>
                 </android.support.design.widget.TextInputLayout>
                 <android.support.design.widget.TextInputEditText
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Прізвище" android:id="@+id/TeacherSurname"/>
+                        android:hint="Прізвище" android:id="@+id/teacherSurname"/>
             </android.support.design.widget.TextInputLayout>
             <android.support.design.widget.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Ім'я"/>
+                    android:hint="Ім'я" android:id="@+id/teacherName"/>
         </android.support.design.widget.TextInputLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
