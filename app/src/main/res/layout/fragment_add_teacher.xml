@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:showIn="@layout/activity_add_teacher"
+        tools:context=".AddTeacherFragment">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="395dp"
+            android:layout_height="659dp" tools:layout_editor_absoluteY="8dp" tools:layout_editor_absoluteX="8dp"
+            app:layout_constraintCircleRadius="10dp" android:paddingLeft="25dp" android:paddingRight="25dp"
+            android:paddingTop="10dp">
+        <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/TeacherName">
+
+            <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    <android.support.design.widget.TextInputLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+                        <LinearLayout
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+                            <Button
+                                    android:text="Зберегти"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content" android:id="@+id/saveButton"
+                                    android:layout_weight="1"/>
+                        </LinearLayout>
+                    </android.support.design.widget.TextInputLayout>
+                    <android.support.design.widget.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Телефон" android:inputType="phone"/>
+                </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Прізвище" android:id="@+id/TeacherSurname"/>
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ім'я"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
